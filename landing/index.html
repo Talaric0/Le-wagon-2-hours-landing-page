@@ -1,65 +1,125 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  		<link href='style.css' rel='stylesheet'>
+    <title>Travel Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+		<link href='style.css' rel='stylesheet'>
 	</head>
-  	<body>
-		<div id='banner'>
-    		<h1>My awesome page</h1>
-    		<p>This page is awesome! </p>
-    		<p>
-      		<a href="#cards" type="button" class="btn btn-secondary" role="button">Go for it!</a>
-    		</p>
+  <body>
+    <div id='banner'>
+    		<h1>This is a travel page</h1>
+    		<p>¯\_ (ツ)_/¯</p>
+    		<a class="btn btn-outline-dark" href="#cards">Awesome! Let's go!</a>
 		</div>
 		
 		<div class="container" id="cards">
   			<div class="row">
     			<div class="col-xs-12 col-sm-6 col-md-3">
-      				<div class="text-center" class='card'>
-    					<img src="images/icons/new/turtle.png" alt="picture description" width="70">
-    					<h2>Fast</h2>
-    					<h2><strong>Like a turtle</strong></h2>
+      				<div class='card'>
+    					<img src="images/icons/send-48px.png" alt="picture description" width="70">
+    					<h2>Planes</h2>
+              <a href="#FAST" class="stretched-link"></a>
 					</div>
     			</div>
     			<div class="col-xs-12 col-sm-6 col-md-3">
-      				<div class="text-center" class='card'>
-    					<img src="images/icons/new/rocket.png" alt="picture description" width="70">
-    					<h2>Simple</h2>
-    					<h2><strong>As rocket science</strong></h2>
+      				<div class='card'>
+    					<img src="images/icons/train_48px.png" alt="picture description" width="70">
+    					<h2>Trains</h2>
+    					<a href="#SIMPLE" class="stretched-link"></a>
 					</div>
     			</div>
     			<div class="col-xs-12 col-sm-6 col-md-3">
-      				<div class="text-center" class='card'>
-    					<img src="images/icons/new/good.png" alt="picture description" width="70">
-    					<h2>Awesome</h2>
-    					<h2><strong>As you!</strong></h2>
+      				<div class='card'>
+    					<img src="images/icons/walk_48px.png" alt="picture description" width="70">
+    					<h2>Foot</h2>
+              <a href="#AWESOME" class="stretched-link"></a>
 					</div>
     			</div>
     			<div class="col-xs-12 col-sm-6 col-md-3">
-      				<div class="text-center" class='card'>
-    					<img src="images/icons/new/puppy.png" alt="picture description" width="70">
-    					<h2>Beautiful</h2>
-    					<h2><strong>Like puppies</strong></h2>
+      				<div class='card'>
+    					<img src="images/icons/compass-48px.png" alt="picture description" width="70">
+    					<h2>Road</h2>
+              <a href="#BEAUTIFUL" class="stretched-link"></a>
 					</div>
     			</div>
   			</div>
 		</div>
     <div>
+      <div class="container">
+        <div class="row">
+          <div class="card-trip" id="FAST">
+            <img src="images/cards/plane1.jpg" />
+            <div class="card-trip-infos">
+              <div>
+                <h2>I love airplanes</h2>
+                <p>Ut tristique lacus eget risus lacinia placerat. Donec maximus, magna vitae facilisis placerat, justo odio vulputate quam, a tempor lacus nulla ut orci. Integer vel commodo leo. Integer eu diam sit amet augue molestie dictum. Nam efficitur quam at ligula scelerisque, ut rhoncus nisl imperdiet. Sed sapien nunc, tempus a odio nec, consequat aliquam risus. Nulla dictum sed sem ac posuere. Aliquam sodales egestas porttitor. Etiam viverra quis nunc a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc commodo consequat varius.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  	</body>
+  	<div>
+      <div class="container">
+        <div class="row">
+          <div class="card-trip" id="SIMPLE">
+            <img src="images/cards/train.jpg" />
+            <div class="card-trip-infos">
+              <div>
+                <h2>Also love trains</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque pulvinar tortor, vel luctus sapien laoreet ut. Vivamus luctus eros quis felis elementum, in aliquet dui ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed scelerisque quis sem eu hendrerit. Sed porta purus vitae odio lobortis condimentum. Cras malesuada nibh vel lacus condimentum, vitae placerat arcu faucibus. Quisque finibus vitae augue et commodo. Suspendisse quis commodo purus. Curabitur eu felis mi. Etiam eleifend purus nisi, ut venenatis eros dignissim in. Integer sem orci, pellentesque non pharetra tristique, scelerisque quis sapien. Mauris neque elit, egestas eu ante id, pulvinar egestas massa. Nam maximus iaculis nunc eu pretium. Integer tellus augue, pretium in aliquam eget, tincidunt vel nisi. Integer nisl leo, porttitor in lacus ut, maximus ultrices quam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="card-trip" id="AWESOME">
+            <img src="images/cards/foot.jpg" />
+            <div class="card-trip-infos">
+              <div>
+                <h2>Not much of a fan of walking</h2>
+                <p>Curabitur ac scelerisque tellus, ut dapibus ex. Duis diam tortor, ultricies sit amet sapien nec, scelerisque varius ante. Aliquam viverra posuere nisi et volutpat. Proin molestie vestibulum felis, eget sagittis lectus consequat at. Etiam at quam in risus mollis dignissim vel at lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ullamcorper enim eget libero aliquam, vel aliquet tellus efficitur. Pellentesque at sodales nunc. Praesent in commodo diam, in porttitor massa. Phasellus posuere, eros at volutpat lobortis, ex justo volutpat purus, ac finibus ex tortor ac magna.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="card-trip" id="BEAUTIFUL">
+            <img src="images/cards/road1.jpg" />
+            <div class="card-trip-infos">
+              <div>
+                <h2>Missing the road (Covid go away!)</h2>
+                <p>
+                Cras blandit dolor at lacus tincidunt accumsan. Sed eleifend ultrices nunc, non imperdiet diam egestas non. Donec scelerisque, erat porta varius auctor, ipsum nisl aliquam eros, non aliquet lorem enim at sapien. Pellentesque faucibus molestie nulla, a elementum dui scelerisque ac. Proin at ligula ut ligula maximus aliquam et non quam. Donec posuere, dui et rutrum fermentum, ante lorem elementum mauris, at interdum erat massa vel ex. Nunc non rutrum tellus. Aliquam et sapien et sapien tempus facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec a metus rutrum, maximus diam vel, dictum risus. Nullam varius tortor odio, hendrerit varius risus porttitor et.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+
   	<footer>
   		<div id='footer'>
-        <p>Playground landing ©Le Wagon</p>
         <ul id="footer" class="list-inline">
-  			 <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-  			 <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-  			 <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-  			 <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+  			 <li class="list-inline-item"><p>©Le Wagon</p></li>
+         <li class="list-inline-item"><a href="https://www.youtube.com/channel/UChCDYcBCrb8tuPAO6e0P-Hw" target="_blank"><i class="fab fa-youtube"></i></a></li>
+  			 <li class="list-inline-item"><a href="https://pt-br.facebook.com/lewagon/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+  			 <li class="list-inline-item"><a href="https://twitter.com/lewagonbrasil" target="_blank"><i class="fab fa-twitter"></i></a></li>
+  			 <li class="list-inline-item"><a href="https://github.com/lewagon" target="_blank"><i class="fab fa-github"></i></a></li>
 		    </ul>
       </div>  
   	</footer>
