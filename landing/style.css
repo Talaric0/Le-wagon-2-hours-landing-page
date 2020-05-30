@@ -90,9 +90,9 @@
 .card{
   border: 2px solid;
   border-color: lightgray;
-  border-radius: 5%;
+  border-radius: 5px;
   background-color: #C3ACAC;
-  box-shadow: 2px solid;
+  box-shadow: 0 0 16px solid;
   margin: 5px;
   padding: 10px;
   text-align: center;
